@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@imagekit/nodejs": "^7.14.0",
+    "multer": "^2.5.0"
+  },
+  "scripts": {
+    "build": "npm --prefix client install && npm --prefix client run build && npm --prefix server install",
+    "start": "npm --prefix server start"
+  }
+}
